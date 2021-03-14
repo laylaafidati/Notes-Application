@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".ThirdActivity">
+
+    <TextView
+        android:id="@+id/tv_pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:letterSpacing="0.1"
+        android:text="Add / Edit Notes"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="Title"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:layout_toEndOf="@+id/iv_coffeeImage"/>
+
+    <EditText
+        android:id="@+id/et_title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:inputType="text"
+        android:hint="Note Title"/>
+
+    <TextView
+        android:id="@+id/tv_category2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="Category"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:layout_toEndOf="@+id/iv_coffeeImage"/>
+
+    <EditText
+        android:id="@+id/et_category2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:inputType="text"
+        android:hint="Note Category"/>
+
+    <TextView
+        android:id="@+id/tv_description2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="Description"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:layout_toEndOf="@+id/iv_coffeeImage"/>
+
+    <EditText
+        android:id="@+id/et_description2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:inputType="text"
+        android:hint="Note Description"/>
+
+    <Button
+        android:id="@+id/btn_save2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:textColor="@color/colorPrimaryDark"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
